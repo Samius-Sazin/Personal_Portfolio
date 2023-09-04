@@ -27,10 +27,13 @@ section{
 }
 
 .link_Button{
+    color: aliceblue;
+    font-weight: 700;
     /* remove the underline of a link */
     text-decoration: none;
-    background-color:orange;
-    
+    background-image: linear-gradient(orange, red);
+
     /* up&down padding 10px right&left 40px */
     padding: 10px 40px;
+    border-radius: 10px;
 }
