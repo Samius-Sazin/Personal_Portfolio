@@ -1,9 +1,27 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 h1{
     font-size:50px;
 }
+
 .name_color{
     color: orange;
+}
+
+section{
+    display:flex
+}
+
+.half_width{
+    width:50%;
+    padding:5%;
+}
+
+.half_width img{
+    width: 400px;
+    border: 10px solid #00A7E1;
+    padding-right: 50px;
+    padding-left: 50px;
 }
