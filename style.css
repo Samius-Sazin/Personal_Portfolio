@@ -70,3 +70,51 @@ h1{
 .dream{
     padding: 20px 10px;
 }
+
+.sub_exp{
+    display: flex;
+}
+
+.half_part{
+    width: 50%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+              /* x    y  blur-radius */
+    box-shadow: 10px 10px 40px gray;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-radius: 10px;
+    
+}
+
+#exp{
+    padding-left: 10px;
+}
+
+.exp_color{
+    color: orange;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.half_part{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 183, 255), rgb(31, 31, 252));
+    border-image-slice: 1;
+}
+
+footer p{
+    margin-top: 7%;
+    text-align: center;
+}
